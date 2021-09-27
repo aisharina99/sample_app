@@ -12,6 +12,10 @@ gem "webpacker", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
 gem 'bcrypt', '~> 3.1.7'
+
+gem "will_paginate", "3.3.1", git: "https://github.com/mislav/will_paginate.git", branch: "master"
+gem "bootstrap-will_paginate", "1.0.0"
+
 gem 'jquery-rails'
 gem "bootsnap", ">= 1.4.4", require: false
 
@@ -24,6 +28,7 @@ group :development do
   gem "rack-mini-profiler", "~> 2.0"
   gem "listen", "~> 3.3"
   gem "spring"
+  gem "faker"
 end
 
 group :test do
